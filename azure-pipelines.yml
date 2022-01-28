@@ -30,10 +30,7 @@ steps:
 
 - task: UseDotNet@2
   displayName: 'Install .NET.Test.Sdk' #icrosoft.NET.Test.Sdk
-  inputs:
-    version: 17.0.0
-    performMultiLevelLookup: true
-    includePreviewVersions: true
+  
 
 - task: VSTest@2
   inputs:
